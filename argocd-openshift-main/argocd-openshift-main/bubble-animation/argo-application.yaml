@@ -9,7 +9,7 @@ spec:
     server: https://kubernetes.default.svc 
   project: default 
   source: 
-    path: bubble-animation/application-mainfest
+    path: argocd-openshift-main/argocd-openshift-main/bubble-animation/application-mainfest
     repoURL: https://github.com/ajisha-sb/bubble-application
     targetRevision: main
   syncPolicy: 
